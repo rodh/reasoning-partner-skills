@@ -136,11 +136,17 @@ After drafting, before presenting to the user, check:
 
 Fix issues inline before presenting.
 
-**Stop and wait** for the user to confirm before saving.
+**Stop and wait** for the user to confirm the plan content before proceeding.
+
+**Save gate:** Once content is confirmed, propose saving:
+
+- **A** — Save to `<descriptive-name>_plan.md`
+- **B** — Adjust, then save (specify what to change)
+- **C** — Skip save (keep output in conversation only)
 
 ## Phase 4 — Save
 
-Save to `<descriptive-name>_plan.md` in the artifact directory, where `<descriptive-name>` is 2-4 hyphenated words describing the slice.
+If the user picks **A**: save to the artifact directory, where `<descriptive-name>` is 2-4 hyphenated words describing the slice. If **B**: apply adjustments, then save. If **C**: end the skill — no follow-up about saving.
 
 ## Artifact Directory
 

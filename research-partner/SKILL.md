@@ -55,12 +55,15 @@ Structure findings into a summary:
 > - **B)** Mutiny's $5k/day autonomous-spend threshold — how it was chosen and whether it's configurable per account
 > - **C)** The Clay $12k overage incident and what spend-capping primitives Clay has shipped since
 > - **D) Save and move on** — findings are sufficient as-is
+> - **E) Done — skip save** — keep findings in conversation only
 
 Options must name specific things from the findings — a company, a feature, a number, a surprising pattern, a gap. If you'd write "dig deeper into X" where X is a generic category ("pricing", "features", "architecture"), you're not drilling down — stop and find the specific thing worth exploring instead. Visual follow-ups (retrying blocked captures, finding alternative image sources) belong in the Visual results section, not as drill-down options — drill-downs are for content threads.
 
 If the user picks A/B/C: loop back to Investigate with the narrowed scope. Visual consent carries forward — don't re-ask. On the next Synthesize, integrate drill-down findings into the original themes and offer a fresh set of drill-down options.
 
 If the user picks D: proceed to Save.
+
+If the user picks E: end the skill — no follow-up about saving.
 
 ## 4. Save
 

@@ -69,13 +69,9 @@ If thinking surfaces that the user needs a different skill next, name it explici
 
 If no changes needed: skip to Capture.
 
-**Stop and wait** for the user to confirm before saving.
-
 ## 5. Capture
 
-Write a session note to `<descriptive-name>_thinking.md` in the artifact directory, where `<descriptive-name>` is 2-4 hyphenated words describing the artifact's focus (e.g., `auth-token-expiry_thinking.md`).
-
-Start the file with an H1 title in the format `# Thinking: <title>`, where `<title>` summarizes the session content.
+Compose the session note content:
 
 - **Session summary** — 2-3 sentences
 - **Trigger** — the user's opening statement
@@ -84,7 +80,17 @@ Start the file with an H1 title in the format `# Thinking: <title>`, where `<tit
 - **Changes made** — what was modified, or "None"
 - **Open threads** — anything surfaced but not resolved
 
-**Self-review:** After writing, scan for: vague conclusions, resolution that doesn't follow from analysis, open threads that should have been resolved. Fix inline before finalizing.
+**Self-review:** Scan for: vague conclusions, resolution that doesn't follow from analysis, open threads that should have been resolved. Fix inline.
+
+**Save gate:** Present the capture content and propose saving:
+
+- **A** — Save to `<descriptive-name>_thinking.md`
+- **B** — Adjust, then save (specify what to change)
+- **C** — Skip save (keep output in conversation only)
+
+Where `<descriptive-name>` is 2-4 hyphenated words describing the artifact's focus (e.g., `auth-token-expiry_thinking.md`). Start the file with an H1 title in the format `# Thinking: <title>`, where `<title>` summarizes the session content.
+
+If the user picks **A**: write to the artifact directory. If **B**: apply adjustments, then write. If **C**: end the skill — no follow-up about saving.
 
 ## Artifact Directory
 

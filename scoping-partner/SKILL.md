@@ -83,9 +83,13 @@ Recommend **one** next move — not a menu:
 
 If the slice is small enough to just go, say so.
 
-**Stop and wait** for user confirmation before saving.
+**Save gate:** Propose saving with labeled options:
 
-Read `scope-template.md` for the artifact format and word budget. Save to `<descriptive-name>_scope.md` in the artifact directory.
+- **A** — Save to `<descriptive-name>_scope.md`
+- **B** — Adjust, then save (specify what to change)
+- **C** — Skip save (keep output in conversation only)
+
+Read `scope-template.md` for the artifact format and word budget. If the user picks **A**: save to the artifact directory. If **B**: apply adjustments, then save. If **C**: end the skill — no follow-up about saving.
 
 ## Artifact Directory
 
