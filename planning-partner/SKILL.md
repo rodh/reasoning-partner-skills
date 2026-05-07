@@ -12,7 +12,7 @@ Ingest `$ARGUMENTS`. Scan the artifact directory (and one level of subfolders) f
 **Bounce conditions:**
 
 - **No scope artifact + thin input** — if there's no scoping artifact and the input is too thin to plan from, stop and recommend running `/scoping-partner` first.
-- **Slice is small enough to act directly** — if the slice doesn't need a multi-step plan, say so and recommend the appropriate skill (`/research-partner`, `/thinking-partner`, or `/ideation-partner`).
+- **Slice is small enough to act directly** — if the slice doesn't need a multi-step plan, say so and recommend the appropriate skill (`/research-partner` or `/thinking-partner`).
 
 **Identify which aspect to plan.** Default: the load-bearing slice from the scope artifact. If the user wants a different aspect (e.g., a parked item), use that.
 

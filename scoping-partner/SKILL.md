@@ -1,6 +1,6 @@
 ---
 name: scoping-partner
-description: Use when you have raw project context — PRDs, tickets, Slack threads, wireframes, screenshots, or verbal dumps — and need to understand the problem before starting work
+description: Use when you have raw project context — PRDs, tickets, Slack threads, docs, screenshots, or verbal dumps — and need to understand the problem before starting work
 ---
 
 # Scoping Partner
@@ -19,7 +19,6 @@ Turns raw context into structured understanding, then converges on the load-bear
 **When NOT to use:**
 - Single focused question — use thinking-partner
 - Already have a slice and need execution steps — use planning-partner
-- Exploring solution directions — use ideation-partner
 - Investigating a specific unknown — use research-partner
 
 Create one task per phase; complete in order:
@@ -81,7 +80,6 @@ Recommend **one** next move — not a menu:
 - `/planning-partner` — if slice warrants a multi-step execution plan
 - `/thinking-partner` — if there's a decision or tradeoff inside the slice
 - `/research-partner` — if there's a specific unknown to investigate
-- `/ideation-partner` — if you need to explore solution directions
 
 If the slice is small enough to just go, say so.
 

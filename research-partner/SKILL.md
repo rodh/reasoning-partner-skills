@@ -21,7 +21,7 @@ For **quick lookup**: proceed directly to Investigate with no stop.
 
 Conduct research using available tools — web search, web fetch, codebase scan, whatever fits the question. Work iteratively: follow leads, cross-reference sources, and fill gaps.
 
-**Visual detection:** If the topic has a visual dimension (products, UIs, competitor interfaces), ask once early:
+**Visual detection:** If the topic has a visual dimension (interfaces, diagrams, physical artifacts, real-world examples), ask once early:
 
 > "This research has a visual component — want me to try capturing screenshots/images as I investigate?"
 
@@ -46,7 +46,7 @@ Structure findings into a summary:
 **Visual results** (only if visual capture was enabled during Investigate):
 - Which sources had screenshots/images captured successfully
 - Which were blocked and why (auth wall, bot protection, etc.)
-- For blocked sources, note alternative paths if obvious (e.g., "marketing page accessible, dashboard behind login")
+- For blocked sources, note alternative paths if obvious (e.g., "public page accessible, authenticated content behind login")
 
 **Drill-down suggestions:** After presenting findings, identify 3 interesting threads that emerged and present as labeled options. Example from a run researching agentic marketing platforms:
 
@@ -89,6 +89,6 @@ Skills save artifacts to the configured artifact directory. To configure, add `A
 - Landscape surveys and deep dives earn their depth. Don't pad with shallow findings to look thorough.
 - If research turns up nothing useful, say so. Don't dress up thin results.
 - Artifacts must be self-contained. Someone reading the file with no conversation context should understand the findings.
-- If research reveals a decision point, note it — the user may want to reason through it next. If findings open up a solution space, note that too — exploring directions may be a natural next step.
+- If research reveals a decision point, note it — the user may want to reason through it next.
 
 $ARGUMENTS

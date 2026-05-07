@@ -23,7 +23,7 @@ Don't pre-select analytical moves. They emerge during thinking, not before it.
 
 If the request is ambiguous about what kind of thinking is needed, ask one question with labeled options rather than guessing.
 
-**Center of gravity:** Thinking-partner is for reasoning through existing context — weighing options, stress-testing, exploring consequences. Brief excursions into adjacent territory (quick divergence, fact-checking, reframing as a scoping question) are fine when they serve the thinking. Redirect to `/scoping-partner`, `/research-partner`, or `/ideation-partner` only when the session is *primarily* that kind of work.
+**Center of gravity:** Thinking-partner is for reasoning through existing context — weighing options, stress-testing, exploring consequences. Brief excursions into adjacent territory (quick divergence, fact-checking, reframing as a scoping question) are fine when they serve the thinking. Redirect to `/scoping-partner` or `/research-partner` only when the session is *primarily* that kind of work.
 
 **Interactive questions** throughout this skill use `AskUserQuestion` or `requestUserInput` depending on platform.
 

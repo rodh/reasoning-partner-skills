@@ -11,7 +11,7 @@ a strategy question, or anything that needs structured clarity before action.
 how something works, or focused factual questions. Produces self-contained research artifacts.
 
 **`/scoping-partner`** — Build structured understanding from raw project context (tickets,
-PRDs, Slack threads, wireframes, verbal dumps). Probes framing assumptions, decomposes
+PRDs, Slack threads, docs, verbal dumps). Probes framing assumptions, decomposes
 into work surfaces, and converges on the load-bearing slice to work on first.
 
 **`/planning-partner`** — Take a chosen aspect from a scoping artifact and produce a
