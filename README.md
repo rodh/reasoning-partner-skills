@@ -14,8 +14,8 @@ how something works, or focused factual questions. Produces self-contained resea
 PRDs, Slack threads, docs, verbal dumps). Probes framing assumptions, decomposes
 into work surfaces, and converges on the load-bearing slice to work on first.
 
-**`/planning-partner`** — Take a chosen aspect from a scoping artifact and produce a
-focused execution plan: sequenced steps, each with a method and a decision-relevant outcome.
+**`/planning-partner`** — Produce a focused execution plan from a scoping artifact or
+a well-specified task: sequenced steps, each with a method and a decision-relevant outcome.
 
 ### How they fit together
 
